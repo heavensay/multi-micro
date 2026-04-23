@@ -16,9 +16,9 @@
 
 dubbo:
   application:
-      name: dubbo-springboot-demo-provider
-      logger: slf4j
-      qos-port: 0 #0:Dubbo 会自动找可用端口,默认:22222
+    name: dubbo-springboot-demo-idl-provider
+    logger: slf4j
+    qos-port: 0 #0:Dubbo 会自动找可用端口,默认:22222
   protocol:
     name: tri
     port: -1 # -1:RPC 端口随机,tri 50052

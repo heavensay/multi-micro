@@ -16,11 +16,7 @@
 
 dubbo:
   application:
-      name: dubbo-springboot-demo-provider
-      logger: slf4j
-      qos-port: 0 #0:Dubbo 会自动找可用端口,默认:22222
-  protocol:
-    name: tri
-    port: -1 # -1:RPC 端口随机,tri 50052
+    name: dubbo-springboot-demo-consumer
+    logger: slf4j
   registry:
     address: nacos://${nacos.address:127.0.0.1}:8848?username=nacos&password=nacos

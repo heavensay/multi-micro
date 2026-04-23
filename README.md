@@ -1,2 +1,2 @@
-# multi-micro
-多微服务调用demo
+# dubbo-sample-sty
+源于dubbo 3.0官方sample demo，用于学习、测试使用

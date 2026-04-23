@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mulmicro</groupId>
-    <artifactId>mul-micro</artifactId>
+    <artifactId>dubbo-samples-sty</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>mul-micro</name>
@@ -30,6 +30,7 @@
 
     <modules>
         <module>dubbo-samples-spring-boot</module>
+        <module>dubbo-samples-spring-boot-idl</module>
     </modules>
 
     <dependencies>

@@ -34,7 +34,7 @@ $ cd dubbo-samples-spring-boot-provider
 
 then, run the following command to start provider:
 ```shell
-$ mvn compile exec:java -Dexec.mainClass="org.apache.dubbo.springboot.demo.provider.ProviderApplication"
+$ mvn compile exec:java -Dexec.mainClass="org.apache.dubbo.springboot.demo.provider.ProviderIDLApplication"
 ```
 
 Run the following command to see server works as expected:
